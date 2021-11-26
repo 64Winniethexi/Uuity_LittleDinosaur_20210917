@@ -700,6 +700,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   jump: 300
+  checkGroundRadius: 0.18
+  checkGroundOffsest: {x: -0.03, y: -0.66, z: 0}
+  keyJump: 32
+  canJumpLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &708405085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,7 +3160,7 @@ GameObject:
   - component: {fileID: 2030141151}
   - component: {fileID: 2030141150}
   - component: {fileID: 2030141152}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
